@@ -1,0 +1,18 @@
+x=120
+y=68
+function TIC()
+    cls()
+    rect(x,y,10,10,11)
+    if btn(0) then
+        x=x-1
+    end
+    if btn(1) then
+        x=x+1
+    end
+    if btn(2) then
+        y=y-1
+    end
+    if btn(3) then
+        y=y+1
+    end
+end
